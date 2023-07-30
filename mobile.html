@@ -110,7 +110,6 @@
 
     gtag('config', 'G-MBYJS60HQB');
     </script>
-    <script async src="https://arc.io/widget.min.js#oTY49Bnw"></script>
 </head>
 <body>
     <div class="container mt-4">
@@ -170,7 +169,7 @@
             </div>
             <div class="col-md-6">
                 <div class="text-center mb-4">
-                    <img id="logo" src="https://telegra.ph/file/6ba6704392a91e8ce7200.png" alt="Logo" width="100">
+                    <img id="logo" src="images/logom3u8black.png" alt="Logo" width="100">
                 </div>
                 <form id="m3u-form">
                     <div class="input-group mb-3">
@@ -178,7 +177,7 @@
                             <a id="mode-switch" class="btn btn-light">
                                 <i class="fas fa-moon"></i>
                             </a>
-                            <a id="links" class="btn btn-light" href="https://jkt48live.github.io/links/" target="_blank">
+                            <a id="links" class="btn btn-light" href="https://link.fan.my.id" target="_blank">
                                 <i class="fas fa-external-link"></i>
                             </a>
                             <a id="modal-tutor" class="btn btn-secondary">
@@ -200,8 +199,8 @@
         const MAX_VIDEOS = 4;
         let currentVideoCount = 0;
         const logoImage = {
-            dark: 'https://telegra.ph/file/963f9a49015a2023558f9.png',
-            light: 'https://telegra.ph/file/6ba6704392a91e8ce7200.png'
+            dark: 'images/logom3u8white.png',
+            light: 'images/logom3u8black.png'
         };
 
         function createVideoElement() {
@@ -217,7 +216,7 @@
 
             const watermark = document.createElement('img');
             watermark.className = 'watermark';
-            watermark.src = 'https://telegra.ph/file/963f9a49015a2023558f9.png';
+            watermark.src = 'images/logom3u8white.png';
             videoWrapper.appendChild(watermark);
 
             const deleteButton = document.createElement('button');
@@ -353,7 +352,7 @@
             document.getElementById('mode-switch').classList.add('btn-dark');
             document.getElementById('mode-switch').innerHTML = '<i class="fas fa-sun"></i>';
             document.getElementById('links').classList.add('btn-dark');
-            document.getElementById('logo').src = 'https://telegra.ph/file/963f9a49015a2023558f9.png';
+            document.getElementById('logo').src = 'images/logom3u8white.png';
             document.getElementById('tutorialModal').classList.add('dark-mode');
         }
     </script>
