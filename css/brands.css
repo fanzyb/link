@@ -690,3 +690,13 @@ border {
 .button.button-drive:focus {
   filter: brightness(90%);
 }
+
+/* Fonts */
+.button.button-font {
+  color: #000000;
+  background-image: linear-gradient(to bottom, #a6ff02, #00ffc8);
+}
+.button.button-font:hover,
+.button.button-font:focus {
+  filter: brightness(90%);
+}
