@@ -510,8 +510,9 @@ button:hover,
 
 /* Threads */
 .button.button-threads {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-threads:hover,
 .button.button-threads:focus {
