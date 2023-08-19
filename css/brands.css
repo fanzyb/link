@@ -276,6 +276,7 @@ button:hover,
 .button.button-playstore {
   color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
@@ -594,6 +595,7 @@ button:hover,
 .button.button-web {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-web:hover,
 .button.button-web:focus {
@@ -634,6 +636,7 @@ button:hover,
 .button.button-yt {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
@@ -699,5 +702,16 @@ border {
 }
 .button.button-font:hover,
 .button.button-font:focus {
+  filter: brightness(90%);
+}
+
+/* JKT48SR */
+.button.button-jkt48sr {
+  color: #00f7ff;
+  background-color: #2c3440;
+  border: 1px solid #00f7ff;
+}
+.button.button-jkt48sr:hover,
+.button.button-jkt48sr:focus {
   filter: brightness(90%);
 }
