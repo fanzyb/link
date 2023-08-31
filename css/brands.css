@@ -715,3 +715,14 @@ border {
 .button.button-jkt48sr:focus {
   filter: brightness(90%);
 }
+
+/* JKT48LIST */
+.button.button-jkt48ls {
+  color: #ff1f01;
+  background-color: #dbdbdb;
+  border: 1px solid #ff1f01;
+}
+.button.button-jkt48ls:hover,
+.button.button-jkt48ls:focus {
+  filter: brightness(90%);
+}
