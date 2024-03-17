@@ -503,6 +503,7 @@ button:hover,
 .button.button-tiktok {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
