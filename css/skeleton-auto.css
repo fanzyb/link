@@ -218,6 +218,7 @@ hr {
   width: 360px;
   height: 450px;
   border-radius: 5%;
+  object-position: center;
 }
 
 .logo {
