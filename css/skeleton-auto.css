@@ -215,10 +215,11 @@ hr {
 }
 
 .store {
-  width: 360px;
-  height: 450px;
+  max-width: 85%;
+  max-height: 85%;
   border-radius: 5%;
   object-position: center;
+  vertical-align: middle;
 }
 
 .logo {
