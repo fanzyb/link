@@ -1173,3 +1173,13 @@ border {
 .button.button-hok:focus {
   filter: brightness(90%);
 }
+
+/* Saweria */
+.button.button-saweria {
+  color: #ffffff;
+  background-color: #ff9d0b;
+}
+.button.button-saweria:hover,
+.button.button-saweria:focus {
+  filter: brightness(90%);
+}
