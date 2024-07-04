@@ -94,7 +94,7 @@ body {
   line-height: 24px;
   font-weight: 400;
 color: white;
-  font-family: "Josefin Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "DM Sans";
 background: url(https://cdn.jsdelivr.net/gh/fanzyb/image@main/Shade4ZheanoBlog.png) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -107,6 +107,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 800;
+  font-stretch: ultra-expanded;
 }
 h1 {
   font-size: 24px;
@@ -145,6 +146,8 @@ code {
   background: #f1f1f1;
   border: 1px solid #e1e1e1;
   border-radius: 4px;
+  color: black;
+  font-weight: bold;
 }
 pre > code {
   display: block;
@@ -209,4 +212,15 @@ hr {
   object-fit: cover;
   background-position: center;
   border-radius: 50%;
+}
+
+.store {
+  width: 360px;
+  height: 450px;
+  border-radius: 5%;
+}
+
+.logo {
+  width: 250px;
+  height: 125px;
 }
