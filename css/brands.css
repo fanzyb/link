@@ -68,7 +68,7 @@ button:hover,
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
   width: 20px;
-  height: 20px;
+  
 }
 .icon-larger{
   width: 6%;
@@ -1181,5 +1181,27 @@ border {
 }
 .button.button-saweria:hover,
 .button.button-saweria:focus {
+  filter: brightness(90%);
+}
+
+
+/* QRIS */
+.button.button-qris {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-qris:hover,
+.button.button-qris:focus {
+  filter: brightness(90%);
+}
+
+/* JAGO */
+.button.button-jago {
+  color: #ff9d0b;
+  background-color: #000000;
+  border: 1px solid #ff9d0b;
+}
+.button.button-jago:hover,
+.button.button-jago:focus {
   filter: brightness(90%);
 }
